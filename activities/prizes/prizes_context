@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "prizes": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER",
+    "prizes": "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/tree/master/activities/prizes/items",
     "tokens": {
       "@id": "prizes:tokens",
       "@type": "@id"

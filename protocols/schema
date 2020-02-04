@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/YOUR-ACTIVITY-SET-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/blob/master/protocols/context"
   ],
   "@type": "reproschema:ActivitySet",
   "@id": "token_logging_schema",

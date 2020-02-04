@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "behaviors": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER",
+    "behaviors": "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/tree/master/activities/behaviors/items/",
     "positive_behaviors": {
       "@id": "behaviors:positive_behaviors",
       "@type": "@id"
