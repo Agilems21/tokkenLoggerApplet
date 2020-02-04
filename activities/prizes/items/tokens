@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/blob/master/activities/prizes/prizes_context"
+    "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/master/activities/prizes/prizes_context"
   ],
   "@type": "reproschema:Field",
   "@id": "tokens",

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/blob/master/activities/behaviors/behaviors_context"
+    "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/master/activities/behaviors/behaviors_context"
   ],
   "@type": "reproschema:Field",
   "@id": "negative_behaviors",
