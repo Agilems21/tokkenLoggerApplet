@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "prizes",
+  "skos:prefLabel": "prizes",
+  "skos:altLabel": "prizes",
+  "schema:description": "Prizes",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "tokens"
+    ],
+    "shuffle": false,
+    "visibility": {
+      "tokens": true
+    }
+  }
+}

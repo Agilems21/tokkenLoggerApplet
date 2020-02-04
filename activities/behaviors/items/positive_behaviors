@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "positive_behaviors",
+  "skos:prefLabel": "positive_behaviors",
+  "skos:altLabel": "positive_behaviors",
+  "schema:description": "Positive Behaviors",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "question": "",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "@type": "xsd:anyURI",
+    "multipleChoice": false,
+    "schema:minValue": 0,
+    "schema:maxValue": 2,
+    "choices": [
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Paid attention (+1)",
+        "schema:value": 0
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Cleaned up room (+5)",
+        "schema:value": 1
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Brushed teeth (+1)",
+        "schema:value": 2
+      }
+    ]
+  }
+}

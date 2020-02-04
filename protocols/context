@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+    "behaviors": {
+      "@id": "activity_path:behaviors/behaviors_schema",
+      "@type": "@id"
+    },
+    "prizes": {
+      "@id": "activity_path:prizes/prizes_schema",
+      "@type": "@id"
+    }
+  }
+}

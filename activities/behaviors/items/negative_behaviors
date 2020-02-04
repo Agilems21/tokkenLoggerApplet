@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "negative_behaviors",
+  "skos:prefLabel": "negative_behaviors",
+  "skos:altLabel": "negative_behaviors",
+  "schema:description": "Negative behaviors",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "question": "",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "@type": "xsd:anyURI",
+    "multipleChoice": false,
+    "schema:minValue": 0,
+    "schema:maxValue": 2,
+    "choices": [
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Lied (-2)",
+        "schema:value": 0
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Showed aggression (-4)",
+        "schema:value": 1
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Used foul language (-1)",
+        "schema:value": 2
+      }
+    ]
+  }
+}

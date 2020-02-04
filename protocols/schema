@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-SET-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:ActivitySet",
+  "@id": "token_logging_schema",
+  "skos:prefLabel": "token_logging",
+  "skos:altLabel": "token_logging",
+  "schema:description": "TokenLogger",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "schema:about": "TokenLogger",
+  "variableMap": [
+    {
+      "variableName": "behaviors",
+      "isAbout": "behaviors"
+    },
+    {
+      "variableName": "prizes",
+      "isAbout": "prizes"
+    }
+  ],
+  "ui": {
+    "order": [
+      "behaviors",
+      "prizes"
+    ],
+    "shuffle": false,
+    "activity_display_name": {
+      "behaviors": "behaviors",
+      "prizes": "prizes"
+    },
+    "visibility": {
+      "behaviors": true,
+      "prizes": true
+    }
+  }
+}
