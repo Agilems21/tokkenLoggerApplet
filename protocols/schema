@@ -4,7 +4,7 @@
     "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/master/protocols/context"
   ],
   "@type": "reproschema:ActivitySet",
-  "@id": "token_logging_schema",
+  "@id": "schema",
   "skos:prefLabel": "token_logging",
   "skos:altLabel": "token_logging",
   "schema:description": "TokenLogger",
