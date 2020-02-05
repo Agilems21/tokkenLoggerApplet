@@ -4,7 +4,7 @@
     "https://raw.githubusercontent.com/Agilems21/tokkenLoggerApplet/master/activities/behaviors/behaviors_context"
   ],
   "@type": "reproschema:Activity",
-  "@id": "behaviors",
+  "@id": "behaviors_schema",
   "skos:prefLabel": "behaviors",
   "skos:altLabel": "behaviors",
   "schema:description": "Behaviors",
